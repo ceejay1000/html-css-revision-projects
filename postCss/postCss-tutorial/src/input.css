@@ -1,0 +1,33 @@
+@import "vars";
+
+@custom-selector :--h1, h2, h3, h4, h5, h6;
+@custom-media ---view-small (width <= 500px);
+/* $light-color: #fafafa; */
+
+:--heading {
+  @media (---view-small) {
+    font-size: 40px;
+  }
+  font-size: 24px;
+}
+
+body {
+  background-color: #fff;
+  background-image: resolve("bag.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--light-color);
+  display: flex;
+  width: width("bag.jpg");
+}
+
+.card {
+  & h2 {
+    color: red;
+  }
+}
+
+input::placeholder {
+  color: red;
+}

@@ -1,0 +1,19 @@
+header {
+  height: 50vh;
+  background: crimson;
+
+  nav {
+    display: flex;
+    border: 5px solid teal;
+
+    ul {
+      display: flex;
+
+      li {
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

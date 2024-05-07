@@ -1,0 +1,30 @@
+Angular Topics
+
+PART ONE
+Section 1
+ - Basics
+ - Databinding
+ - Directives
+ - Services
+
+Section 2
+ - Routing
+ - Observables
+ - Forms
+ - Pipes
+
+Section 3
+ - RxJS
+ - Angular http
+
+Section 4
+ - Authentication
+
+PART TWO
+ - Animations
+ - Signals
+ - State management (NGRX)
+
+PART THREE
+ - Testing
+ - Deployment

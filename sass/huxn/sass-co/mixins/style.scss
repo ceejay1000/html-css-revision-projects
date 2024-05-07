@@ -1,0 +1,16 @@
+@mixin button-styles {
+  padding: 10px 20px;
+  background: teal;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.lm-btn {
+  @include button-styles();
+}
+
+.d-btn {
+  @include button-styles();
+  background-color: green;
+}

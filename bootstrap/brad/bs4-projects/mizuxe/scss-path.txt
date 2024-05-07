@@ -1,0 +1,3 @@
+sass -w "C:\Users\Emmanuel Cudjoe\Desktop\HTML-CSS\bootstrap\brad\bs4-projects\mizuxe\prjt\scss\bootstrap.scss" "C:\Users\Emmanuel Cudjoe\Desktop\HTML-CSS\bootstrap\brad\bs4-projects\mizuxe\prjt\css\bootstrap.css"
+
+sass -w "C:\Users\Emmanuel Cudjoe\Desktop\HTML-CSS\bootstrap\brad\bs4-projects\mizuxe\prjt\scss\style.scss" "C:\Users\Emmanuel Cudjoe\Desktop\HTML-CSS\bootstrap\brad\bs4-projects\mizuxe\prjt\css\style.css"

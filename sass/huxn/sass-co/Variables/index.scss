@@ -1,0 +1,37 @@
+$color: teal;
+$main-color: #c8deff;
+
+body {
+  background: linear-gradient();
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: $main-color;
+  line-height: 24px;
+  margin: 4rem;
+  position: relative;
+}
+
+.img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 5px solid white;
+  position: absolute;
+  right: -30px;
+  bottom: 110px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.img-one {
+}

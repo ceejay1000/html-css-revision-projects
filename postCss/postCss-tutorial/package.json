@@ -1,0 +1,26 @@
+{
+  "name": "postcss-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss src/input.css -o dist/style.css",
+    "watch:css": "postcss src/input.css -o dist/style.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.25",
+    "postcss-cli": "^10.1.0",
+    "postcss-preset-env": "^9.0.0",
+    "precss": "^4.0.0"
+  },
+  "dependencies": {
+    "cssnano": "^6.0.1",
+    "postcss-assets": "^6.0.0",
+    "postcss-import": "^15.1.0"
+  }
+}
